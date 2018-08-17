@@ -49,11 +49,11 @@ Run the following command to run the service:
 OR get the VM IP using following command:
 `$ minikube ip`
 
-Get the service port running the following command:
+Run the following command to get service's exposed post:
 `$ kubectl get service productservicesrv`
 
 Enter the IP with the exposed port in the browser URL.
-For example,:
+For example:
 http://192.168.99.100:32568//api/product
 
 
