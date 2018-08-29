@@ -57,5 +57,8 @@ For example:
 http://192.168.99.100:32568//api/product
 
 
-To scale the application (pods) to 4, run the followig command:
+Run the following command to scale the application (pods) to 4:
 `$ kubectl scale deployment productserviceapp --replicas=4`
+
+Run the following command to create all objects:
+`$ kubectl apply -f productservice-all-deploy.yml`
