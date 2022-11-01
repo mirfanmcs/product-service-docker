@@ -22,7 +22,7 @@ name: Build and deploy JAR app to Azure Web App
 env:
   AZURE_WEBAPP_NAME: irfproductservice    # set this to the name of your Azure Web App
   JAVA_VERSION: '8'                  # set this to the Java version to use
-  DISTRIBUTION: OpenJDK                  # set this to the Java distribution
+  DISTRIBUTION: zulu                  # set this to the Java distribution
 
 on:
   push:
