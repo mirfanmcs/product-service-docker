@@ -72,7 +72,7 @@ jobs:
         cache: 'maven'
     - run: |
         mvn clean install
-        uses: github/codeql-action/autobuild@v2
+        
         
     #   echo "Run, Build Application using script"
     #   ./location_of_script_within_repo/buildscript.sh
